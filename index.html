@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Práctico 2 - Posicionamiento</title>
+    <style>
+        .static {
+            position: static;
+            background: lightgray;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .relative {
+            position: relative;
+            top: 10px;
+            left: 20px;
+            background: lightblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .absolute-container {
+            position: relative;
+            height: 150px;
+            background: beige;
+            margin: 10px;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: orange;
+            padding: 10px;
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: purple;
+            color: white;
+            padding: 10px;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+            background: yellow;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2 class="sticky">Elemento Sticky</h2>
+
+<div class="static">Posición Static</div>
+
+<div class="relative">Posición Relative</div>
+
+<div class="absolute-container">
+    <div class="absolute">Posición Absolute</div>
+</div>
+
+<div class="fixed">Posición Fixed</div>
+
+<p style="height: 900px;">Desplácese para ver sticky y fixed...</p>
+
+</body>
+</html>
+
